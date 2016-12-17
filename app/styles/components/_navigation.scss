@@ -1,0 +1,16 @@
+//Bootstrap resets
+.nav {
+  > li {
+    > a {
+      &:hover, &:focus {
+        background-color: inherit;
+      }
+    }
+  }
+
+  .open {
+    > a, a:hover, a:focus {
+      background-color: inherit;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@media (min-width: $screen-xs-min) { //480px & greater
+
+}
+
+@media (min-width: $screen-sm-min) { //768px & greater
+
+}
+
+@media (min-width: $screen-md-min) { //992px & greater
+
+}
+
+@media (min-width: $screen-lg-min) { //1200px & greater
+
+}
+
+@media (min-width: $screen-xs-min) and (max-width: $screen-xs-min) { } //480px - 767px
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-min){ } //768px - 991px
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-min) { } //992px & 1199px
+
+
+@media (max-width: $screen-xs-max) { } //479px & lower
+
+@media (max-width: $screen-sm-max) { } //767px & lower
+
+@media (max-width: $screen-md-max) { } //991px & lower
+
+@media (max-width: $screen-lg-max) { } //1199px & lower
